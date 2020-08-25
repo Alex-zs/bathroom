@@ -65,7 +65,7 @@ func BookBathroom(roomID string) {
 		respJson := &CheckSupplyResp{}
 		json.Unmarshal(body, respJson)
 
-		if respJson.Object[0].SURPLUS > 0 {
+		if len(respJson.Object) == 1 && respJson.Object[0].SURPLUS > 0 {
 			success := ToBook(respJson.Object[0].ID)
 			if success {
 				fmt.Printf("预订成功，请打开海大e卡通确认信息.")

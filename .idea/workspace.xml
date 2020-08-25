@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc0c420a-caf8-4758-9e9f-117991a3a603" name="Default Changelist" comment="" />
+    <list default="true" id="fc0c420a-caf8-4758-9e9f-117991a3a603" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/bathroom.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/bathroom.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,15 +21,21 @@
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gY1oN22N61W0nJPOeiIpTh9qdo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
@@ -46,11 +57,6 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build github.com/Alex-zs/bathroom" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -64,22 +70,22 @@
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
     <state x="2200" y="254" key="#Go_Modules/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598276920233" />
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom" timestamp="1598360687713">
+    <state width="1878" height="456" key="GridCell.Tab.0.bottom" timestamp="1598365380491">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="391" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598360687713" />
-    <state width="1878" height="391" key="GridCell.Tab.0.center" timestamp="1598360687712">
+    <state width="1878" height="456" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598365380491" />
+    <state width="1878" height="456" key="GridCell.Tab.0.center" timestamp="1598365380489">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="391" key="GridCell.Tab.0.center/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598360687712" />
-    <state width="1878" height="391" key="GridCell.Tab.0.left" timestamp="1598360687711">
+    <state width="1878" height="456" key="GridCell.Tab.0.center/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598365380489" />
+    <state width="1878" height="456" key="GridCell.Tab.0.left" timestamp="1598365380488">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="391" key="GridCell.Tab.0.left/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598360687711" />
-    <state width="1878" height="391" key="GridCell.Tab.0.right" timestamp="1598360687712">
+    <state width="1878" height="456" key="GridCell.Tab.0.left/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598365380488" />
+    <state width="1878" height="456" key="GridCell.Tab.0.right" timestamp="1598365380490">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="391" key="GridCell.Tab.0.right/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598360687712" />
+    <state width="1878" height="456" key="GridCell.Tab.0.right/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598365380490" />
     <state width="1878" height="391" key="GridCell.Tab.1.bottom" timestamp="1598360687715">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
