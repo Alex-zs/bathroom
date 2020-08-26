@@ -56,6 +56,8 @@ func main() {
 	// 开始预订
 	util.BookBathroom(roomID)
 
+	// 为防止直接退出，进入输入等待状态
+	_, _ = fmt.Scanln()
 
 }
 
