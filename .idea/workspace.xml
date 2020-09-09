@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fc0c420a-caf8-4758-9e9f-117991a3a603" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/banner.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/banner.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gY1oN22N61W0nJPOeiIpTh9qdo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -54,6 +58,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/Alex-zs/bathroom" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -67,22 +76,22 @@
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
     <state x="2200" y="254" key="#Go_Modules/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598276920233" />
-    <state width="1878" height="456" key="GridCell.Tab.0.bottom" timestamp="1598366209915">
+    <state width="1878" height="525" key="GridCell.Tab.0.bottom" timestamp="1599448480807">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="456" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598366209915" />
-    <state width="1878" height="456" key="GridCell.Tab.0.center" timestamp="1598366209914">
+    <state width="1878" height="525" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1599448480807" />
+    <state width="1878" height="525" key="GridCell.Tab.0.center" timestamp="1599448480806">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="456" key="GridCell.Tab.0.center/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598366209914" />
-    <state width="1878" height="456" key="GridCell.Tab.0.left" timestamp="1598366209913">
+    <state width="1878" height="525" key="GridCell.Tab.0.center/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1599448480806" />
+    <state width="1878" height="525" key="GridCell.Tab.0.left" timestamp="1599448480805">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="456" key="GridCell.Tab.0.left/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598366209913" />
-    <state width="1878" height="456" key="GridCell.Tab.0.right" timestamp="1598366209915">
+    <state width="1878" height="525" key="GridCell.Tab.0.left/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1599448480805" />
+    <state width="1878" height="525" key="GridCell.Tab.0.right" timestamp="1599448480806">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state width="1878" height="456" key="GridCell.Tab.0.right/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598366209915" />
+    <state width="1878" height="525" key="GridCell.Tab.0.right/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1599448480806" />
     <state width="1878" height="391" key="GridCell.Tab.1.bottom" timestamp="1598360687715">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
@@ -103,9 +112,9 @@
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
     <state width="960" height="528" key="XDebugger.FullValuePopup/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598284113641" />
-    <state x="2065" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1598358068816">
+    <state x="2065" y="266" width="670" height="676" key="search.everywhere.popup" timestamp="1599447790571">
       <screen x="1440" y="-115" width="1920" height="1057" />
     </state>
-    <state x="2065" y="266" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1598358068816" />
+    <state x="2065" y="266" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.-115.1920.1057@1440.-115.1920.1057" timestamp="1599447790571" />
   </component>
 </project>

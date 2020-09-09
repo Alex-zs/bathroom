@@ -3,11 +3,14 @@ package main
 import (
 	"fmt"
 	"github.com/Alex-zs/bathroom/util"
+	"os"
 	"os/exec"
 	"runtime"
 )
 
 func main() {
+	// 打印banner
+	fmt.Print(util.Banner)
 
 	// 获取qrcode
 	html, err := util.GetHtml()
@@ -18,9 +21,10 @@ func main() {
 	qrcodeContent := util.GetQrcodeContentFromHtml(html)
 
 	// 创建验证码图片并打开
-	fileURL := "file:///" + util.CreateQrcode(qrcodeContent)
-	os := runtime.GOOS
-	switch os {
+	qrcodeFilePath := util.CreateQrcode(qrcodeContent)
+	fileURL := "file:///" + qrcodeFilePath
+	goos := runtime.GOOS
+	switch goos {
 	case "darwin":
 		exec.Command(`open`, fileURL).Start()
 	case "windows":
@@ -28,13 +32,15 @@ func main() {
 	case "linux":
 		exec.Command(`xdg-open`, fileURL).Start()
 	}
-
 	// 连接websocket并获取令牌
 	account, err := util.WsClient(qrcodeContent[2:])
 	if err != nil {
 		fmt.Printf("连接失败，请检查网络。原因:%s\n", err)
 		return
 	}
+
+	// 删除qrcode文件
+	_ = os.Remove(qrcodeFilePath)
 
 	// 获取hallticket
 	err = util.GetHallTicket(account)
